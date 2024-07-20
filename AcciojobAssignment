@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+	  <h1>Atlantica!</h1>
+	  <p>The City of Ocean Dreams!</p>
+	  <nav class ="links">
+	  <a href="https://en.wikipedia.org/wiki/Atlantica#Formation">Formation |</a>
+	  <a href="https://en.wikipedia.org/wiki/Atlantica#Breakup">Break Up |</a>
+	  <a href="https://en.wikipedia.org/wiki/Atlantica#See_also">See Others |</a>
+	  <a href="https://en.wikipedia.org/wiki/Atlantica#Notes"> Notes |</a>
+	  <a href="https://en.wikipedia.org/wiki/Atlantica#References">References |</a>
+	  </nav>
+	  <div>
+		  <h2>Discover Atlantica</h2>
+		  <img class="image" src="https://images.app.goo.gl/wdkHsv19FShDtdGn6" alt="Atlantica Image">
+		  <p>Atlantica formed simultaneously with Nena at about 1.9 Ga from Archaean cratons, including Amazonia in present-day South America, and the Congo, West Africa and North Africa Cratons in Africa</p>
+	  </div>
+
+	  <div class="attractions">
+		  <h2>Attractions</h2>
+		  <h3>Main Attractions</h3>
+		  <ol>
+			  <br>
+			  <li>Atlantis Tower</li>
+			  <li>Deep Sea Museam</li>
+			  <li>The Oceanic Bridge</li>
+		  </ol>
+		  <h3>Local Favorites</h3>
+		  <ul>
+			  <li>Merman's Street</li>
+			  <li>Neptune's Diner</li>
+			  <li>Atlantica Beaches</li>
+			  
+		  </ul>
+	  </div>
+	  <div class="City Statistics">
+		  <h2>City Statistics</h2>
+		  <table>
+			  <tr>
+				  <td>Statistics</td>
+				  <td>Value</td>
+			  </tr>
+			  <tr>
+				  <td>Population</td>
+				  <td>5 million</td>
+			  </tr>
+			  <tr>
+				  <td>Landmark</td>
+				  <td>25</td>
+			  </tr>
+			  <tr>
+				  <td>Parks</td>
+				  <td>18</td>
+				  
+			  </tr>
+			  <tr>
+				  <td>Schools</td>
+				  <td>18</td>
+			  </tr>
+			  <tr>
+				  <td>Beaches</td>
+				  <td>9</td>
+			  </tr>
+			  
+		  </table>  
+	  </div>
+	  <div class="FeedBack">
+		  <h2>Feedback</h2>
+		  <form>
+			  <label for="name">Name:</label>
+			  <input type="text" id="name" required>
+			  <br>
+			  <br>
+			  <label for="email">Email:</label>
+			  <input type="email"id="email" required>
+			  <br>
+			  <br>
+			  <label for="Age">Age:</label>
+			  <input type="number" min="10" max="100"id="Age" required>
+			  <br>
+			  <br>
+			  <label type="FavTower"> Favorite Tower:</label>
+			  <select id="FavTower">
+				  <option>Evil Tower</option>
+				  <option>Mount everest</option>
+				  <option>Ooty</option>
+			  </select>
+			  <br>
+			  <br>
+			  <button type="submit">Submit</button>
+
+			  <div class="Towers">
+				  <h2>What Netizens Say!!!</h2>
+				  <p>Atlantica beaches are paradise on Earth</p>
+				  <p>Atlantica separated from Nena between 1.6–1.4 Ga when Columbia — a supercontinent composed of Ur, Nena, and Atlantica — fragmented.[2] Atlantica and continents Nena and Ur and some minor plates formed the supercontinent Rodinia about 1 Ga ago</p>
+			 </div>
+			  <div class="Contact us">
+				  <h3>Contact Us</h3>
+				  <p>In the atlantic we are looking forward to meeting you, please contact with us without any commitment by one of our means of contact.
+					  <br>
+					  <br>
+					  
+                Email:info@atlantica-co.com.
+					  <br>
+                Ph.No :(+34) 985 203 449.
+                </p>
+			  </div>
+		  </form>
+	  </div>
+	  
+	  
+    
+      <!-- Your code here -->
+   
+  </body>
+</html>
